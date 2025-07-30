@@ -1,12 +1,12 @@
 
-## Get Requests:
+# Get Requests:
 In this section, we provide a comprehensive overview of the 'Get' requests available through the IQ Bible API. Each endpoint is designed to facilitate easy access to a wide range of Biblical data and resources. Whether you're looking to retrieve specific scriptures, audio narrations, or perform advanced searches, these endpoints offer the necessary functionality to integrate Biblical content seamlessly into your application. Below, you will find detailed descriptions of each endpoint, including their purpose, usage, and example requests and responses to help you get started.
 
 ---
 
 <br/><br/>
 
-### GetAudioNarration
+## GetAudioNarration
 
 **Description:**
 Returns the audio narration file for the Bible chapter in the version specified. Currently supported versions: KJV, RV1909 (Reina Valera 1909 (Spanish)), and SVD (Smith-Van Dyke (Arabic)).
@@ -31,7 +31,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetBibleBookAbbreviations
+## GetBibleBookAbbreviations
 
 **Description:**
 GetBibleBookAbbreviations will return an array of all the abbreviations for bible book names. Also see, GetParseCitation.
@@ -50,7 +50,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetBibleReadingPlan
+## GetBibleReadingPlan
 
 **Description:**
 GetBibleReadingPlan will return a Bible reading plan dividing the Bible into chapters according to the days specified. There are optional parameters that you can set after the required 'days' parameter, namely, 'requestedStartDate', 'sections', and 'requestedAge'.
@@ -95,7 +95,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetBibleReadingPlanByTopic 
+## GetBibleReadingPlanByTopic 
 
 **Description:**
 This endpoint will return a Bible Reading Plan specific to the value of the 'topic' parameter. Please note that when using this endpoint, not as many days can be assigned per the 'days' parameter as with the 'GetBibleReadingPlan' endpoint, but you can easily ascertain how many 'verseIds' any topic will produce by using the 'GetTopicVerseCount' endpoint (e.g., GetTopicVerseCount?topic=angels). If the 'days' parameter is not set, the value will default to '30'. If the 'topic' parameter is not set, the default will be the first topic (addiction).
@@ -125,7 +125,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetBookAndChapterNameByBookAndChapterId
+## GetBookAndChapterNameByBookAndChapterId
 
 **Description:**
 Returns the name of the book and chapter as specified in the 'bookAndChapterId' and 'language' parameter values. Both parameters are required.
@@ -147,7 +147,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetBooks
+## GetBooks
 
 **Description:**
 Returns a list of all of the books of the Bible in the language specified with the '?language=[language]' parameter. Currently supported languages are English, Spanish, and Arabic; with more on the way.
@@ -166,7 +166,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetBookIdByBookName
+## GetBookIdByBookName
 
 **Description:**
 Returns the 'bookId' of the 'bookName' submitted. At this time, abbreviations, such as with the 'GetParseCitation' endpoint are not supported but will be in the future. English, Spanish, and Arabic book names are supported.
@@ -186,7 +186,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetBooksNT
+## GetBooksNT
 
 **Description:**
 Returns a list of only the New Testament books in the language specified with the '?language=[language]' parameter.
@@ -205,7 +205,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetBooksOT
+## GetBooksOT
 
 **Description:**
 Returns a list of only the New Testament books in the language specified with the '?language=[language]' parameter.
@@ -224,7 +224,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetBooksExtraBiblical 
+## GetBooksExtraBiblical 
 
 **Description:**
 This endpoint retrieves a list of all the extra-biblical books available in our database. 
@@ -285,7 +285,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetBookInfo
+## GetBookInfo
 
 **Description:**
 This endpoint retrieves detailed information for a specified canonical biblical book based on the provided `bookId` and language setting. The data includes both general and theological information about the book, offering an in-depth resource for applications focused on biblical studies, teaching, theological, and thematic exploration. The information spans various aspects such as book structure, themes, historical context, theological significance, and major characters, with additional insights on covenantal themes, symbolism, and eschatological perspectives. 
@@ -307,7 +307,7 @@ The endpoint currently supports English (`language=english`) as the default and 
 
 <br/><br/>
 
-### GetBookNameByBookId
+## GetBookNameByBookId
 
 **Description:**
 Returns the name of the book per the number sent in the language specified. For example, 'GetBookNameByBookId?bookId=01&language=english' would return 'Genesis'.
@@ -327,7 +327,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetBookNameExtraBiblicalByBookId 
+## GetBookNameExtraBiblicalByBookId 
 
 **Description:**  
 Returns the name of an extra-biblical book per the number sent in the request. For example, sending a request to 'GetBookNameExtraBiblicalByBookId?bookId=01' would return the name of the first extra-biblical book in the configured list.
@@ -346,7 +346,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetBookNameByVerseId
+## GetBookNameByVerseId
 
 **Description:**
 Returns the name of the book per the 'verseId' sent in the language specified. For example, 'GetBookNameByVerseId?verseId=40001001&language=english' would return 'Matthew'.
@@ -366,7 +366,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetBookNumberByName
+## GetBookNumberByName
 
 **Description:**
 Returns the number of the book that corresponds to the name sent as a parameter. The full book name must be sent.
@@ -386,7 +386,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetChapter
+## GetChapter
 
 **Description:**
 Returns a complete Bible chapter. Required **Parameters:** 'bookId', 'chapterId', and 'versionId'. For example, 'GetChapter?bookId=01&chapterId=02&versionId=kjv' would return the entire second chapter of Genesis in the King James Version.
@@ -408,7 +408,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetChapterExtraBiblical 
+## GetChapterExtraBiblical 
 
 **Description:**
 This endpoint provides access to individual chapters from a wide range of extra-biblical texts. These texts, not included in the standard biblical canon, encompass a diverse array of writings such as apocryphal, deuterocanonical, and other ancient religious documents. They offer valuable insights into religious thought, history, and cultural practices from periods not covered in traditional biblical narratives. To retrieve a specific chapter, two parameters are required: 'bookId' and 'chapterId'.
@@ -433,7 +433,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetChapterByBookAndChapterId
+## GetChapterByBookAndChapterId
 
 **Description:**
 Returns a complete Bible chapter according to the 'bookAndChapterId' and 'versionId' established. Required **Parameters:** 'bookAndChapterId', and 'versionId'. For example, 'GetChapterByBookAndChapterId?bookAndChapterId=40001&versionId=kjv' will return the entire first chapter of Matthew in the King James Version.
@@ -460,7 +460,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetChapterCount
+## GetChapterCount
 
 **Description:**
 Returns simply the number of chapters in any book requested via the 'bookId' parameter. For example, 'GetChapterCount?bookId=66' would return '22' as there are twenty-two (22) chapters in Revelation the 66th book.
@@ -479,7 +479,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetChapterCountExtraBiblical 
+## GetChapterCountExtraBiblical 
 
 **Description:**  
 Returns the number of chapters in any extra-biblical book requested via the 'bookId' parameter. This endpoint specifically caters to the collection of extra-biblical texts. For example, a request like 'GetChapterCountExtraBiblical?bookId=1' would return the total number of chapters (107) in the extra-biblical book of 1 Enoch.
@@ -498,7 +498,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetChronological
+## GetChronological
 
 **Description:**
 Returns an array containing a general list of the chronological events of the Bible.
@@ -517,7 +517,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetCommentary
+## GetCommentary
 
 **Description:**
 Returns all of the commentaries for the 'verseId' and 'commentaryId' parameters specified. The 'commentaryId' is currently limited to 'gills'. Both parameters are required.
@@ -537,7 +537,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetCrossReferences
+## GetCrossReferences
 
 **Description:**
 Returns all of the complete cross-references (with starting and ending verse, if applicable) for the 'verseId' received.
@@ -556,7 +556,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetDefinitionBiblical
+## GetDefinitionBiblical
 
 **Description:**
 Returns the dictionary for the 'dictionaryId' parameter specified. The 'dictionaryId' is currently limited to 'smiths'.
@@ -576,7 +576,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetEndpoints 
+## GetEndpoints 
 
 **Description:**
 Retrieves a list of all available public endpoints in the API. It's an essential tool for developers to understand the API's structure and the parameters each endpoint expects.
@@ -595,7 +595,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetGenres
+## GetGenres
 
 **Description:**  
 This endpoint retrieves the genres of book groupings within the Bible, providing the starting and ending bookId and verseId for each genre. The genres are categorized according to the section of the Bible (Old Testament, New Testament, or both). It supports genre groupings like "Law", "History", "Poetry", "Prophecy", "Gospels", and "Epistles", enabling easy, programmatic navigation for users. This functionality makes it simple to explore the Bible's traditional literary divisions and facilitates seamless access to genre-based content for applications, studies, or Bible exploration tools.
@@ -620,7 +620,7 @@ The `section` parameter allows users to filter the genres by the Old Testament (
 
 <br/><br/>
 
-### GetGreekCharactersAndUnicode
+## GetGreekCharactersAndUnicode
 
 **Description:**
 Returns the Unicode for the Greek alphabet in both lower and uppercase. Only one parameter is taken: 'language'.
@@ -639,7 +639,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetHebrewCharactersAndUnicodePoints
+## GetHebrewCharactersAndUnicodePoints
 
 **Description:**
 Returns the Unicode for the Hebrew alphabet and corresponding English transliterations (based on the Unicode standard). The response includes letters, points, accents, punctuation, marks, signs, and Yiddish ligatures. Only one parameter is taken: 'language'.
@@ -658,7 +658,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetInfo
+## GetInfo
 
 **Description:**
 GetInfo will return information about this API.
@@ -677,7 +677,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetOriginalText - NEWLY UPDATED!
+## GetOriginalText - NEWLY UPDATED!
 
 **Description:**  
 Returns the original Hebrew (Old Testament) or Greek (New Testament) text for a verse, determined from the `verseId`. There are thirty-nine (39) books in the Old Testament (Protestant) and twenty-seven (27) in the New Testament.
@@ -698,7 +698,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetParables
+## GetParables
 
 **Description:**
 Produces a list of parables in the Bible and their relative citations (e.g., 'GetParables?language=english'). The verses of the parables can be retrieved in your app by using the 'GetParseCitation' call (q.v.). For example, for the last parable, 'The Sheep and the Goats', we can retrieve the 'verseIds' for that parable with this call: 'GetParseCitation?citation=Matthew 25:31-46', and then use the 'GetVerse' endpoint to pull the text.
@@ -717,7 +717,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetParallelVerses
+## GetParallelVerses
 
 **Description:**
 Returns the verse according to the 'verseId' sent in all of the versions available.
@@ -736,7 +736,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetParseCitation
+## GetParseCitation
 
 **Description:**
 Returns all of the 'verseIds' for the citation submitted. You can use abbreviations (e.g., Ex., or Exod. for Exodus) and multiple references from the same book within the same chapter. Also, see GetBibleBookAbbreviations for an array of abbreviations.
@@ -759,7 +759,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetParseVerseId
+## GetParseVerseId
 
 **Description:**
 Parses any 'verseId' to return the 'bookId', 'bookAndChapterId', 'chapterNumber', and the verse number ('verseNumber'). This endpoint will check the value of the 'verseId' submitted, so ensure that it is a valid 'verseId' and it's correctly formatted (8 digits), otherwise an empty response will be returned. For example, 'GetParseVerseId?verseId=66001001' is valid, and will return the JSON, whereas, 'GetParseVerseId?verseId=66050001' will not since there is not a chapter 50 in the book of Revelation (the 66th book (Protestant)).
@@ -778,7 +778,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetPropheciesFulfilledInJesus
+## GetPropheciesFulfilledInJesus
 
 **Description:**
 Returns the 351 prophecies of the Old Testament that were fulfilled in Jesus. Includes the scripture references in the Old and New Testaments.
@@ -797,7 +797,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetRandomChapter
+## GetRandomChapter
 
 **Description:**
 Returns a random chapter in its entirety. 
@@ -816,7 +816,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetRandomVerse
+## GetRandomVerse
 
 **Description:**
 Returns a random verse from the Bible (Old Testament or New Testament). The 'GetRandomVerse' has been newly updated and now features advanced filter parameters, such as limiting the random verse to the New or Old Testament, limiting the random verse to a specific book, or a specific book and chapter. 
@@ -842,7 +842,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetReadingTimeByAge
+## GetReadingTimeByAge
 
 **Description:**
 This response contains information about how long, on average (with a range of 'high', 'average', and 'low'), it should take a reader of the specified age ('requestedAge') to read the number of words in the 'wordCount' parameter value. Both 'requestedAge' and 'wordCount' are required parameters.
@@ -890,7 +890,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetSearch
+## GetSearch
 
 **Description:**
 Will return all the results of the query entered. For example, 'GetSearch?query=Jesus&versionId=kjv ' will return all the results of the Bible wherein 'Jesus' is found. This is a basic search request, for advanced search needs, see 'GetSearchAdvanced'.
@@ -910,7 +910,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetSearchAdvanced
+## GetSearchAdvanced
 
 **Description:**
 Advanced Search is a more powerful search than the 'GetSearch' GET request. For example, 'GetSearchAdvanced?query=David&versionId=kjv&matchType=exact&excludeString=urias&limitToBookId=40&limitToChapterId=1' will search for 'David' in the KJV and exclude any mention of 'Urias' within the book of Matthew ('limitToBookId=40') and within chapter one (1) ('limitToChapterId=1') only.
@@ -940,7 +940,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetSearchCount
+## GetSearchCount
 
 **Description:**
 GetSearchCount will return the total results count for any search term (query) entered. For example, 'GetSearchCount?query=Jesus&versionId=kjv' will return 943 the number of times that the word, "Jesus" appears in the KJV.
@@ -960,7 +960,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetSemanticRelations - NEW!
+## GetSemanticRelations - NEW!
 
 **Description:**  
 Returns a list of words semantically related to the input word specified, based on the vocabulary found in the King James Version (KJV) of the Bible. This endpoint helps to identify synonyms or closely associated words, which can be useful in applications involving natural language processing, lexical analysis, or semantic search.
@@ -981,7 +981,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetStories
+## GetStories
 
 **Description:**
 Will return a JSON containing all of the stories by their starting and ending verses of the Bible. Currently, only in English (?language=english), but more are in active development.
@@ -1000,7 +1000,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetStrongs
+## GetStrongs
 
 **Description:**
 Returns Strong's in Hebrew or Greek. The [id] in the JSON returned corresponds to the 'H' for Hebrew and 'G' for Greek that Strong's uses to precede the id. Thus, an [id] of 3 in our table is equivalent to Strong's Hebrew H3 as well as Strong's Greek G3. The Strong's needed can be ascertained after using a GetOriginalText call (e.g. 'GetOriginalText?verseId=01001001') wherein we can receive back the Strong's Ids for any word in Hebrew or Greek respectively.
@@ -1020,7 +1020,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetTopic 
+## GetTopic 
 
 **Description:**
 This endpoint will return JSON containing all of the citations (e.g., 1 Corinthians 13:4-8) as well as the verseIds (if more than one, they will be arrayed) that apply to the value of the topic parameter entered (e.g., 'love').
@@ -1043,7 +1043,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetTopics 
+## GetTopics 
 
 **Description:**
 This endpoint will return the JSON array for all of the available topics that can be used with the 'GetTopic' endpoint, q.v.
@@ -1066,7 +1066,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetTopicVerseCount 
+## GetTopicVerseCount 
 
 **Description:**
 Will return a verse count for any topic parameter value.
@@ -1089,7 +1089,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetVerse
+## GetVerse
 
 **Description:**
 Will return a single verse from the Bible using the 'verseId', which is composed of eight (8) digits. The first two (2) are the book number, the second three (3) are the chapter number, and the last three (3) are the verse number.
@@ -1109,7 +1109,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetVerseCount
+## GetVerseCount
 
 **Description:**  
 Returns the number of verses for a specified book and chapter. You can now optionally specify the Bible version to use. If no version is provided, the function defaults to the King James Version (KJV). This update allows you to account for differences in verse counts between Bible versions. For example, the 43rd chapter of Genesis contains 34 verses in the KJV, but only 33 verses in the Bible in Basic English (BBE).
@@ -1136,7 +1136,7 @@ Returns the number of verses for a specified book and chapter. You can now optio
 
 <br/><br/>
 
-### GetVersions
+## GetVersions
 
 **Description:**
 Will return an array of the bible versions available in the API.
@@ -1163,7 +1163,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetWordCountOfBook
+## GetWordCountOfBook
 
 **Description:**
 This response will provide a count of all of the words in the book ('bookId') and version ('versionId') submitted. Both parameters are required. For example, 'GetWordCountOfBook?bookId=01&versionId=kjv' would return a complete count of all the words in the book of Genesis ('bookId=01') in the KJV version ('versionId=kjv'). Both parameters are required.
@@ -1183,7 +1183,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetWordCountOfChapter
+## GetWordCountOfChapter
 
 **Description:**
 'GetWordCountOfChapter' returns the count of all of the words in any given chapter specified by the value of the 'bookAndChapterId' in the version ('versionId') requested. For example, 'GetWordCountOfChapter?bookAndChapterId=01001&versionId=kjv' would return a complete count of all the words in the first chapter of the book of Genesis ('bookAndChapterId=01001') in the KJV version ('versionId=kjv'). Both parameters are required.
@@ -1204,7 +1204,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetWordCountOfVerse
+## GetWordCountOfVerse
 
 **Description:**
 The response will contain a count of all of the words in any given verse specified by the value of the 'verseId' in the version requested ('versionId'). For example, 'GetWordCountOfVerse?verseId=01001001&versionId=kjv' would return a complete count of all the words in the first verse of the book of Genesis in chapter one ('verseId=01001001') of the KJV version ('versionId=kjv'). Both parameters are required.
@@ -1225,7 +1225,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetWords
+## GetWords
 
 **Description:**
 Will return a word-by-word JSON array of the specified verse, along with the word count.
@@ -1250,7 +1250,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetWordsOfJesus
+## GetWordsOfJesus
 
 **Description:**
 This endpoint will return an array of all the verses ('verseIds') wherein Jesus spoke - just as you would find in a 'red letter edition' bible. This endpoint does not take any parameters. Those verses can then be called via the 'GetVerse' endpoint.
