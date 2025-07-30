@@ -72,7 +72,7 @@ We’re actively improving the IQ Bible API and welcome your feedback.
 
 If you’d like to request a new feature (e.g., a new Bible version, language, or integration), you can:
 
-- Email us at [jody@websitie.com](mailto:jody@websitie.com)
+- Email us at [info@iqbible.com](mailto:info@iqbible.com)
 - Or post your request in the Q&A section of our [RapidAPI page](https://rapidapi.com/vibrantmiami/api/iq-bible/)
 
 Your suggestions help us improve the experience for the entire community.
