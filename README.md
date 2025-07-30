@@ -44,7 +44,7 @@ curl --request GET \
   --url 'https://iq-bible.p.rapidapi.com/GetVerseById?verseId=John.3.16' \
   --header 'X-RapidAPI-Key: YOUR_API_KEY_HERE' \
   --header 'X-RapidAPI-Host: iq-bible.p.rapidapi.com'
-
+```
 ---
 
 ## FAQ
