@@ -1,5 +1,5 @@
 
-## Get Requests:
+## Get Requests
 In this section, we provide a comprehensive overview of the 'Get' requests available through the IQ Bible API. Each endpoint is designed to facilitate easy access to a wide range of Biblical data and resources. Whether you're looking to retrieve specific scriptures, audio narrations, or perform advanced searches, these endpoints offer the necessary functionality to integrate Biblical content seamlessly into your application. Below, you will find detailed descriptions of each endpoint, including their purpose, usage, and example requests and responses to help you get started.
 
 ---
