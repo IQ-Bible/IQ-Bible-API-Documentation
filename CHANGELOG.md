@@ -11,11 +11,11 @@ We follow [Semantic Versioning](https://semver.org/), with a clarification:
 This allows the docs to evolve while clearly indicating which version of the API they describe.
 
 ## Unreleased
-- n/a
+- Endpoint groupings
 
 ## [1.38.2] - 2025-07-31
 ### Fixed
-- Incorrect version (niv) listed in docuementation under Common Parameters > versionId
+- Incorrect version (niv) listed in documentation under Common Parameters > versionId
 ### Added
 - Note about extra-biblical bookId and chapterId usage under Common Parameters
 - Authorship section
