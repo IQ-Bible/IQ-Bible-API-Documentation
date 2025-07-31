@@ -99,7 +99,7 @@ The `verseId` is an 8-digit numeric code used to uniquely identify a specific Bi
 **Example:**  
 `01002004` → Genesis 2:4
 
----
+
 
 ### `bookId`
 
@@ -109,7 +109,7 @@ A number from `1` to `66` representing the primary 66 books commonly used in Pro
 `1` → Genesis  
 `43` → John
 
----
+
 
 ### `chapterId`
 
@@ -118,7 +118,7 @@ The chapter number within a book, starting at `1`.
 **Example:**  
 `1` → Chapter 1
 
----
+
 
 > **Note:** Some endpoints support extrabiblical texts (e.g., 1 Enoch, 2 Esdras, Testaments of the Twelve Patriarchs), which are assigned IDs beyond the canonical 66 books.  
 > Use the [`GetBooksExtraBiblical`](#getbooksextrabiblical) endpoint for a full list.
@@ -132,7 +132,7 @@ The Bible version or translation to use.
 - `kjv` → King James Version  
 - `rv1909` → Reina-Valera - 1909
 
----
+
 
 ### `bookAndChapterId`
 

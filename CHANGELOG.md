@@ -20,6 +20,8 @@ This allows the docs to evolve while clearly indicating which version of the API
 - Note about extra-biblical bookId and chapterId usage under Common Parameters
 ### Changed
 - Endpoints introduction to convey that all endpoints are currently Get requests
+### Removed
+- Subsection usage of --- (for sections only)
 
 ## [1.38.1] - 2025-07-31
 ### Changed
