@@ -1,10 +1,29 @@
 # Changelog
-IQBible IQ Bible API Documentation. All notable changes to this project will be documented in this file.
+
+**IQ Bible API Official Documentation**  
+All notable changes to this project will be documented in this file.
+
+We follow [Semantic Versioning](https://semver.org/), with a clarification:
+
+- **MAJOR.MINOR** versions (e.g., `1.38`) track the corresponding IQ Bible API version this documentation is aligned with.
+- **PATCH** version (e.g., `1.38.2`) reflects changes to the documentation only — not the API itself.
+
+This allows the docs to evolve while clearly indicating which version of the API they describe.
 
 ## Unreleased
 - n/a
 
-## [1.0.0] - 2025-07-30
+## [1.38.1] - 2025-07-31
+### Changed
+- Reformatted CHANGELOG
+- Get Requests title to Endpoints for clarity and to allow future additions of POST, PUT, etc.
+### Added
+- Added Common Parameters section
+- Markdown h1 title: # IQ Bible API Official Documentation
+
+
+## [1.38.0] - 2025-07-30
+### Added
 - Repo setup
 - Reformatted markdown headers to make way for Welcome, Getting Started, and FAQ sections.
 - Changed email info to info@iqbible.com

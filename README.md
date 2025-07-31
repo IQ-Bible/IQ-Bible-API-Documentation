@@ -1,4 +1,6 @@
 
+# IQ Bible API Official Documentation
+
 ## Welcome
 
 Welcome to the **IQ Bible API**, which has been built to enable developers to access a well-maintained and powerful Bible API with useful out-of-the-box tools and resources — like Strong’s Concordance and the original texts in Hebrew or Greek — as well as advanced tools, such as professional audio narration for complete chapters.
@@ -79,8 +81,76 @@ Your suggestions help us improve the experience for the entire community.
 
 ---
 
+## Common Parameters
 
-## Get Requests
+This section explains the key parameters used throughout the IQ Bible API. Understanding these parameters is essential for constructing valid requests and interpreting responses across multiple endpoints.
+
+Parameters like `verseId`, `bookId`, and `versionId` provide standardized ways to reference specific books, chapters, verses, and Bible versions, enabling precise and consistent data retrieval.
+
+### `verseId`
+
+The `verseId` is an 8-digit numeric code used to uniquely identify a specific Bible verse.
+
+**Format:** `BBCCCVVV`  
+- `BB` – 2-digit Book ID (e.g., `01` = Genesis, `43` = John)  
+- `CCC` – 3-digit Chapter number (e.g., `002` = Chapter 2)  
+- `VVV` – 3-digit Verse number (e.g., `004` = Verse 4)
+
+**Example:**  
+`01002004` → Genesis 2:4
+
+---
+
+### `bookId`
+
+A number from `1` to `66` representing the primary 66 books commonly used in Protestant Bibles.
+
+
+**Example:**  
+`1` → Genesis  
+`43` → John
+
+> **Note:** The `bookId` parameter can also reference extrabiblical texts included in the API, such as 1 Enoch, 2 Esdras, the Testaments of the Twelve Patriarchs, and others. These are assigned IDs beyond the standard 66 books and provide access to additional ancient writings.
+
+For a complete list of extrabiblical books available, use the `GetBooksExtraBiblical` endpoint.
+
+
+---
+
+### `chapterId`
+
+The chapter number within a book, starting at `1`.
+
+**Example:**  
+`1` → Chapter 1
+
+---
+
+### `versionId`
+
+The Bible version or translation to use.
+
+**Examples:**  
+- `kjv` → King James Version  
+- `niv` → New International Version
+
+---
+
+### `bookAndChapterId`
+
+A 5-digit numeric code combining the book and chapter.
+
+**Format:** `BBCCC`  
+- `BB` – Book ID (e.g., `40` = Matthew)  
+- `CCC` – Chapter (e.g., `001` = Chapter 1)  
+
+**Example:**  
+`40001` → Matthew 1
+
+
+---
+
+## Endpoints
 In this section, we provide a comprehensive overview of the 'Get' requests available through the IQ Bible API. Each endpoint is designed to facilitate easy access to a wide range of Biblical data and resources. Whether you're looking to retrieve specific scriptures, audio narrations, or perform advanced searches, these endpoints offer the necessary functionality to integrate Biblical content seamlessly into your application. Below, you will find detailed descriptions of each endpoint, including their purpose, usage, and example requests and responses to help you get started.
 
 ---
