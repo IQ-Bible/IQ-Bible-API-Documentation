@@ -163,7 +163,6 @@ A 5-digit numeric code combining the book and chapter.
 ## Endpoints
 All current IQ Bible API endpoints use the GET method. This section provides clear documentation for each, including their purpose, required parameters, and sample requests/responses. Whether retrieving verses, audio, metadata, or search results, these endpoints are designed for seamless integration of Biblical data into your applications.
 
-<br/>
 
 ### GetAudioNarration
 
