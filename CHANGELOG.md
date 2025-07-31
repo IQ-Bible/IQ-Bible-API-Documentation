@@ -13,6 +13,10 @@ This allows the docs to evolve while clearly indicating which version of the API
 ## Unreleased
 - Endpoint groupings
 
+## [1.38.3] - 2025-07-31
+### Added
+- humans.txt
+
 ## [1.38.2] - 2025-07-31
 ### Fixed
 - Incorrect version (niv) listed in documentation under Common Parameters > versionId
@@ -31,7 +35,6 @@ This allows the docs to evolve while clearly indicating which version of the API
 ### Added
 - Added Common Parameters section
 - Markdown h1 title: # IQ Bible API Official Documentation
-
 
 ## [1.38.0] - 2025-07-30
 ### Added

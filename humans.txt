@@ -1,0 +1,15 @@
+/* TEAM */
+Project: IQ Bible API Official Documentation
+Team: Jody Pike Méndez, IQBible.com | JodyPM.com
+Site: https://iqbible.com
+Email: info@iqbible.com
+
+/* THANKS */
+Special thanks to the open source and Bible tech communities.
+
+/* TECH */
+Language: Markdown, JSON
+Tools: Git, GitHub, VS Code, OpenAI, RapidAPI
+
+/* LAST UPDATE */
+2025-07-31
