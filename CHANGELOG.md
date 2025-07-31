@@ -18,6 +18,7 @@ This allows the docs to evolve while clearly indicating which version of the API
 - Incorrect version (niv) listed in docuementation under Common Parameters > versionId
 ### Added
 - Note about extra-biblical bookId and chapterId usage under Common Parameters
+- Authorship section
 ### Changed
 - Endpoints introduction to convey that all endpoints are currently Get requests
 ### Removed

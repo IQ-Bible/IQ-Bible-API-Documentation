@@ -81,6 +81,18 @@ Your suggestions help us improve the experience for the entire community.
 
 ---
 
+## Authorship
+
+The IQ Bible API and its documentation are maintained by [Jody Pike Méndez](https://jodypm.com), founder of [IQBible.com](https://iqbible.com) and senior AI/Web consultant and software engineer at [Websitie.com](https://websitie.com).
+
+Contact:  
+- Email: info@iqbible.com  | jody@websitie.com
+- Phone: +1 (754) 800-4695  
+
+For questions, contributions, or custom API integrations, contact: [info@iqbible.com](mailto:info@iqbible.com) or [jody@websitie.com](mailto:jody@websitie.com)
+
+---
+
 ## Common Parameters
 
 This section explains the key parameters used throughout the IQ Bible API. Understanding these parameters is essential for constructing valid requests and interpreting responses across multiple endpoints.
@@ -151,7 +163,6 @@ A 5-digit numeric code combining the book and chapter.
 ## Endpoints
 All current IQ Bible API endpoints use the GET method. This section provides clear documentation for each, including their purpose, required parameters, and sample requests/responses. Whether retrieving verses, audio, metadata, or search results, these endpoints are designed for seamless integration of Biblical data into your applications.
 
----
 
 <br/><br/>
 
