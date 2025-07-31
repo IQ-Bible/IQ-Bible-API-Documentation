@@ -105,15 +105,9 @@ The `verseId` is an 8-digit numeric code used to uniquely identify a specific Bi
 
 A number from `1` to `66` representing the primary 66 books commonly used in Protestant Bibles.
 
-
 **Example:**  
 `1` → Genesis  
 `43` → John
-
-> **Note:** The `bookId` parameter can also reference extrabiblical texts included in the API, such as 1 Enoch, 2 Esdras, the Testaments of the Twelve Patriarchs, and others. These are assigned IDs beyond the standard 66 books and provide access to additional ancient writings.
-
-For a complete list of extrabiblical books available, use the `GetBooksExtraBiblical` endpoint.
-
 
 ---
 
@@ -125,6 +119,10 @@ The chapter number within a book, starting at `1`.
 `1` → Chapter 1
 
 ---
+
+> **Note:** Some endpoints support extrabiblical texts (e.g., 1 Enoch, 2 Esdras, Testaments of the Twelve Patriarchs), which are assigned IDs beyond the canonical 66 books.  
+> Use the [`GetBooksExtraBiblical`](#getbooksextrabiblical) endpoint for a full list.
+
 
 ### `versionId`
 
