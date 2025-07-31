@@ -13,6 +13,10 @@ This allows the docs to evolve while clearly indicating which version of the API
 ## Unreleased
 - n/a
 
+## [1.38.2] - 2025-07-31
+### Fixed
+- Incorrect version (niv) listed in docuementation under Common Parameters > versionId
+
 ## [1.38.1] - 2025-07-31
 ### Changed
 - Reformatted CHANGELOG

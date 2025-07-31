@@ -132,7 +132,7 @@ The Bible version or translation to use.
 
 **Examples:**  
 - `kjv` → King James Version  
-- `niv` → New International Version
+- `rv1909` → Reina-Valera - 1909
 
 ---
 
