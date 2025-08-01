@@ -179,7 +179,7 @@ Content-Type: application/json
 *Example response:*
 `{"fileName":"https:\/\/2-us.com\/media\/audio\/narrations\/obf-kjv\/kjv-dw-01002-0yFiZ1R8cv.mp3"}`
 
-***
+---
 
 ### 📖 Chapters
 
@@ -229,7 +229,7 @@ Content-Type: application/json
 *Example response:*
 `[{"id":"40001001","b":"40","c":"1","v":"1","t":"The book of the generation of Jesus Christ, the son of David, the son of Abraham."},{"id":"40001002","b":"40","c":"1","v":"2","t":"Abraham begat Isaac; and Isaac begat Jacob; and Jacob begat Judas and his brethren;"}, ... }]`
 
-
+---
 
 ### Counting
 
