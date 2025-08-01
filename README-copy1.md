@@ -183,6 +183,8 @@ Content-Type: application/json
 
 ### Chapters
 
+<br/>
+
 #### `GetChapter`
 
 **Description:**
@@ -202,7 +204,7 @@ Content-Type: application/json
 *Example response:*
 `[{"id":"01001001","b":"1","c":"1","v":"1","t":"In the beginning God created the heaven and the earth."},{"id":"01001002","b":"1","c":"1","v":"2","t":"And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."}, ... }]`
 
-<br/><br/>
+<br/>
 
 #### `GetChapterByBookAndChapterId`
 
