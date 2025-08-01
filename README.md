@@ -52,7 +52,8 @@ curl --request GET \
 ## FAQ
 
 **How do I get an API key?**  
-Visit our [RapidAPI listing](https://rapidapi.com/vibrantmiami/api/iq-bible/) and click “Subscribe to Test” or choose a pricing tier. Once subscribed, your API key will be available in your RapidAPI dashboard.
+Visit our [RapidAPI listing](https://rapidapi.com/vibrantmiami/api/iq-bible/), sign in or create an account, then click **Subscribe to Test** and choose a pricing tier (a free tier is available).  
+Once subscribed, your API key will be available in your RapidAPI dashboard.
 
 **Is the API free?**  
 Yes, there’s a free tier available for testing and small-scale use. Higher tiers are available for more extensive usage.
