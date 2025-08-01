@@ -231,7 +231,7 @@ Content-Type: application/json
 
 ---
 
-### Counting
+### 🔢 Counting
 
 #### GetChapterCount
 
@@ -357,9 +357,9 @@ Content-Type: application/json
 *Example response:*
 `{"verseId":"01001001","versionId":"kjv","wordCount":10}`
 
+---
 
-
-### Greek and Hebrew Study
+### ✡️ Greek and Hebrew Study
 
 #### GetGreekCharactersAndUnicode
 
@@ -418,9 +418,9 @@ Content-Type: application/json
 *Example response:*  
 `[{"id":"1","verseID":"1001001","book":"1","chapter":"1","verse":"1","word":"\u05d1\u05bc\u05b0\u05e8\u05b5\u05d0\u05e9\u05c1\u05b4\u0596\u05d9\u05ea","pronun":"...","strongs":"7225","morph":"","orig_order":"1","connected":"0","parashah":"0","notes":"","glossary":"The first, in place, time, order or rank (Strong's H7225)"}]`
 
+---
 
-
-### Books
+### 📚 Books
 
 #### GetBibleBookAbbreviations
 
