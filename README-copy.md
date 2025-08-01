@@ -156,7 +156,7 @@ All current IQ Bible API endpoints use the GET method. This section provides cle
 
 ### 🔊 Audio
 
-` GetAudioNarration
+#### GetAudioNarration
 
 **Description:**
 Returns the audio narration file for the Bible chapter in the version specified. Currently supported versions: KJV, RV1909 (Reina Valera 1909 (Spanish)), and SVD (Smith-Van Dyke (Arabic)).
@@ -178,7 +178,7 @@ Content-Type: application/json
 
 *Example response:*
 `{"fileName":"https:\/\/2-us.com\/media\/audio\/narrations\/obf-kjv\/kjv-dw-01002-0yFiZ1R8cv.mp3"}`
-`
+
 
 
 ### 📖 Chapters
