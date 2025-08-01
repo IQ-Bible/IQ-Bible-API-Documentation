@@ -154,7 +154,7 @@ A 5-digit numeric code combining the book and chapter.
 
 All current IQ Bible API endpoints use the GET method. This section provides clear documentation for each, organized by category for easy navigation.
 
-### Audio
+### 🔊 Audio
 
 #### GetAudioNarration
 
@@ -181,7 +181,7 @@ Content-Type: application/json
 
 
 
-### Chapters
+### 📖 Chapters
 
 #### GetChapter
 
