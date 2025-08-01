@@ -194,6 +194,57 @@ Content-Type: application/json
 
 <br/><br/>
 
+### Chapters
+
+#### GetChapter
+
+**Description:**
+Returns a complete Bible chapter. Required **Parameters:** 'bookId', 'chapterId', and 'versionId'. For example, 'GetChapter?bookId=01&chapterId=02&versionId=kjv' would return the entire second chapter of Genesis in the King James Version.
+
+**Headers:**
+Content-Type: application/json
+
+**Parameters:**
+- `bookId`: Integer or String
+- `chapterId`: Integer
+- `versionId`: String (e.g., 'kjv')
+
+*Example request:* 
+`GetChapter?bookId=01&chapterId=01&versionId=kjv`
+
+*Example response:*
+`[{"id":"01001001","b":"1","c":"1","v":"1","t":"In the beginning God created the heaven and the earth."},{"id":"01001002","b":"1","c":"1","v":"2","t":"And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."}, ... }]`
+
+
+<br/><br/>
+
+### GetChapterByBookAndChapterId
+
+**Description:**
+Returns a complete Bible chapter according to the 'bookAndChapterId' and 'versionId' established. Required **Parameters:** 'bookAndChapterId', and 'versionId'. For example, 'GetChapterByBookAndChapterId?bookAndChapterId=40001&versionId=kjv' will return the entire first chapter of Matthew in the King James Version.
+
+This endpoint enjoys great utility when used in conjunction with 'GetBibleReadingPlan'.
+
+Also, see the following endpoints:
+GetBibleReadingPlan
+GetBookAndChapterNameByBookAndChapterId
+GetChapter
+
+**Headers:**
+Content-Type: application/json
+
+**Parameters:**
+- `bookAndChapterId`: String (e.g., '40001')
+- `versionId`: String (e.g., 'kjv')
+
+*Example request:* 
+`GetChapterByBookAndChapterId?bookAndChapterId=40001&versionId=kjv`
+
+*Example response:*
+`[{"id":"40001001","b":"40","c":"1","v":"1","t":"The book of the generation of Jesus Christ, the son of David, the son of Abraham."},{"id":"40001002","b":"40","c":"1","v":"2","t":"Abraham begat Isaac; and Isaac begat Jacob; and Jacob begat Judas and his brethren;"}, ... }]`
+
+<br/><br/>
+
 ### GetBibleBookAbbreviations
 
 **Description:**
@@ -549,27 +600,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetChapter
 
-**Description:**
-Returns a complete Bible chapter. Required **Parameters:** 'bookId', 'chapterId', and 'versionId'. For example, 'GetChapter?bookId=01&chapterId=02&versionId=kjv' would return the entire second chapter of Genesis in the King James Version.
-
-**Headers:**
-Content-Type: application/json
-
-**Parameters:**
-- `bookId`: Integer or String
-- `chapterId`: Integer
-- `versionId`: String (e.g., 'kjv')
-
-*Example request:* 
-`GetChapter?bookId=01&chapterId=01&versionId=kjv`
-
-*Example response:*
-`[{"id":"01001001","b":"1","c":"1","v":"1","t":"In the beginning God created the heaven and the earth."},{"id":"01001002","b":"1","c":"1","v":"2","t":"And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."}, ... }]`
-
-
-<br/><br/>
 
 ### GetChapterExtraBiblical 
 
@@ -596,32 +627,7 @@ Content-Type: application/json
 
 <br/><br/>
 
-### GetChapterByBookAndChapterId
 
-**Description:**
-Returns a complete Bible chapter according to the 'bookAndChapterId' and 'versionId' established. Required **Parameters:** 'bookAndChapterId', and 'versionId'. For example, 'GetChapterByBookAndChapterId?bookAndChapterId=40001&versionId=kjv' will return the entire first chapter of Matthew in the King James Version.
-
-This endpoint enjoys great utility when used in conjunction with 'GetBibleReadingPlan'.
-
-Also, see the following endpoints:
-GetBibleReadingPlan
-GetBookAndChapterNameByBookAndChapterId
-GetChapter
-
-**Headers:**
-Content-Type: application/json
-
-**Parameters:**
-- `bookAndChapterId`: String (e.g., '40001')
-- `versionId`: String (e.g., 'kjv')
-
-*Example request:* 
-`GetChapterByBookAndChapterId?bookAndChapterId=40001&versionId=kjv`
-
-*Example response:*
-`[{"id":"40001001","b":"40","c":"1","v":"1","t":"The book of the generation of Jesus Christ, the son of David, the son of Abraham."},{"id":"40001002","b":"40","c":"1","v":"2","t":"Abraham begat Isaac; and Isaac begat Jacob; and Jacob begat Judas and his brethren;"}, ... }]`
-
-<br/><br/>
 
 ### GetChapterCount
 
