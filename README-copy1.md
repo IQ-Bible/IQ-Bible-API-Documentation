@@ -156,7 +156,9 @@ All current IQ Bible API endpoints use the GET method. This section provides cle
 
 ### 🔊 Audio
 
+<div style="margin-left: 20px;">
 #### GetAudioNarration
+</div>
 
 **Description:**
 Returns the audio narration file for the Bible chapter in the version specified. Currently supported versions: KJV, RV1909 (Reina Valera 1909 (Spanish)), and SVD (Smith-Van Dyke (Arabic)).
