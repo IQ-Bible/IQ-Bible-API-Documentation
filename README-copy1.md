@@ -183,7 +183,7 @@ Content-Type: application/json
 
 ### Chapters
 
-#### > GetChapter
+#### `> GetChapter`
 
 **Description:**
 Returns a complete Bible chapter. Required **Parameters:** 'bookId', 'chapterId', and 'versionId'. For example, 'GetChapter?bookId=01&chapterId=02&versionId=kjv' would return the entire second chapter of Genesis in the King James Version.
@@ -204,7 +204,7 @@ Content-Type: application/json
 
 
 
-#### > GetChapterByBookAndChapterId
+#### `> GetChapterByBookAndChapterId`
 
 **Description:**
 Returns a complete Bible chapter according to the 'bookAndChapterId' and 'versionId' established. Required **Parameters:** 'bookAndChapterId', and 'versionId'. For example, 'GetChapterByBookAndChapterId?bookAndChapterId=40001&versionId=kjv' will return the entire first chapter of Matthew in the King James Version.
