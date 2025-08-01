@@ -13,7 +13,7 @@ This allows the docs to evolve while clearly indicating which version of the API
 ## Unreleased
 - Endpoint groupings
 
-## [1.38.3] - 2025-08-01
+## [1.38.4] - 2025-08-01
 ### Changed
 - Edited instructions for 'How do I get an API key?' (RapidAPI)
 
