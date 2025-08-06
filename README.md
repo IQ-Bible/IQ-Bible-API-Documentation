@@ -378,7 +378,7 @@ Content-Type: application/json
 *Example response:*
 `{"alpha":{"lowercase":"\\03b1","uppercase":"\\0391"},"beta":{"lowercase":"\\03b2","uppercase":"\\0392"},"gamma":{"lowercase":"\\03b3", ... }`
 
-
+<br/>
 
 #### `GetHebrewCharactersAndUnicodePoints`
 
@@ -397,7 +397,7 @@ Content-Type: application/json
 *Example response:*
 `{"letters":{"alef":"\\u05d0","bet":"\\u05d1","gimel":"\\u05d2","dalet":"\\u05d3","he":"\\u05d4","vav":"\\u05d5","zayin":"\\u05d6", ... "}`
 
-
+<br/>
 
 #### `GetOriginalText`
 
@@ -439,7 +439,7 @@ Content-Type: application/json
 *Example response:*
 `[["Genesis","Gen.","Ge.","Gn."],["Exodus","Ex.","Exod.","Exo."],["Leviticus","Lev.","Le.","Lv."],["Numbers","Num.","Nu.","Nm.","Nb."], ... ]]`
 
-
+<br/>
 
 #### `GetBooks`
 
@@ -458,7 +458,7 @@ Content-Type: application/json
 *Example response:*
 `[{"b":"1","n":"Genesis"},{"b":"2","n":"Exodus"},{"b":"3","n":"Leviticus"},{"b":"4","n":"Numbers"}, ... }]`
 
-
+<br/>
 
 #### `GetBooksNT`
 
@@ -477,7 +477,7 @@ Content-Type: application/json
 *Example response:*
 `[{"b":"40","n":"Matthew","t":"NT","g":"5"},{"b":"41","n":"Mark", ... }]`
 
-
+<br/>
 
 #### `GetBooksOT`
 
@@ -517,7 +517,7 @@ Content-Type: application/json
 *Example response:*
 `{"appName":"IQ Bible API","appDescription":"The IQ Bible API provides an advanced structure for procuring not only Biblical passages but data from many other theological sources.","appType":"web application API","version":"v1.9.1","parentApplication":"IQ Bible - https:\/\/iqbible.com","authors":"https:\/\/websitie.com"}`
 
-
+<br/>
 
 #### `GetEndpoints`
 
@@ -560,7 +560,7 @@ Content-Type: application/json
 *Example response:*
 `"Genesis 1"`
 
-
+<br/>
 
 #### `GetBookIdByBookName`
 
@@ -580,7 +580,7 @@ Content-Type: application/json
 *Example response:*
 `"43"`
 
-
+<br/>
 
 #### `GetBookNameByBookId`
 
@@ -600,7 +600,7 @@ Content-Type: application/json
 *Example response:*
 `[{"n":"Genesis"}]`
 
-
+<br/>
 
 #### `GetBookNameByVerseId`
 
@@ -620,7 +620,7 @@ Content-Type: application/json
 *Example response:*
 `[{"n":"Matthew"}]`
 
-
+<br/>
 
 #### `GetParseCitation`
 
@@ -643,7 +643,7 @@ Content-Type: application/json
 *Example response:*
 `{"bookName":"Matthew","bookId":"40","chapterId":"001","verseIds":["40001002","40001003","40001007","40001010","40001011","40001012","40001013","40001014"]}`
 
-
+<br/>
 
 #### `GetParseVerseId`
 
@@ -662,7 +662,7 @@ Content-Type: application/json
 *Example response:*
 `{"verseId":"43003016","bookId":"43","bookAndChapterId":"43003","chapterNumber":"003","verseNumber":"016"}`
 
-
+<br/>
 
 #### `GetWords`
 
@@ -733,7 +733,7 @@ Content-Type: application/json
 *Example response:*
 `[{"daysRequested":"180","daysFilled":"180","sections":"nt","datesInfo":{"todaysDate":"2022-11-28","startDate":"2023-01-01","daysUntilStartDate":34,"endDate":"2023-06-30"},"chaptersInfo":{"totalChapters":260, ...`
 
-
+<br/>
 
 #### `GetReadingTimeByAge`
 
@@ -780,7 +780,7 @@ Content-Type: application/json
 *Example response:*
 `{"readersAge":"29","readersAgeRequested":"29","wordCount":"650","wordsPerMinuteReadingSpeed":{"low":176,"average":228,"high":280},"timeToRead":{"silent":{"low":{"seconds":221.4,"minutes":3.69,"hours":0.06,"days":0},"average":{"seconds":171, ...}`
 
-
+<br/>
 
 #### `GetBibleReadingPlanByTopic`
 
@@ -834,7 +834,7 @@ The endpoint currently supports English (`language=english`) as the default and 
 *Example response:*
 `[{"bookId":"40","chapterCount":28,"introduction":"The Gospel of Matthew presents Jesus as the promised Messiah...","introduction_long":"The Gospel of Matthew is a foundational book in the New Testament...","author":"Traditionally attributed to Matthew, the tax collector","date":"Circa a.d. 60-70","word_origin":"The title 'Gospel' comes from the Greek 'euangelion', meaning 'good news'.","genre":"Gospel"}...]`
 
-
+<br/>
 
 #### `GetCommentary`
 
@@ -854,7 +854,7 @@ Content-Type: application/json
 *Example response:*
 `"\nIn the beginning God created the heaven and the earth. By the heaven some understand the supreme heaven, the heaven of heavens, the habitation of God, and of the holy angels; and this being made perfect at once, no mention is ... "`
 
-
+<br/>
 
 #### `GetCrossReferences`
 
@@ -873,7 +873,7 @@ Content-Type: application/json
 *Example response:*
 `[{"verseId":"66001001","r":"10","sv":"66022016","ev":"00000000"},{"verseId":"66001001","r":"11","sv":"66022006","ev":"00000000"}, ... }]`
 
-
+<br/>
 
 #### `GetDefinitionBiblical`
 
@@ -893,7 +893,7 @@ Content-Type: application/json
 *Example response:*
 `{"word":"Solomon","definition":"(peaceful). I. Early life and occasion to the throne . --Solomon was the child of ... "}`
 
-
+<br/>
 
 #### `GetGenres`
 
@@ -918,7 +918,7 @@ The `section` parameter allows users to filter the genres by the Old Testament (
 **Example response:**
 `[{"genre":"Law","startingBookId":"01","endingBookId":"05","startingVerseId":"01001001","endingVerseId":"05034028"}] ...`
 
-
+<br/>
 
 #### `GetParables`
 
@@ -937,7 +937,7 @@ Content-Type: application/json
 *Example response:*
 `{"Salt of the Earth":["Matthew 5:13","Mark 9:50"],"Lamp Under a Bowl":["Matthew 5:14-16","Mark 4:21-22","Luke 8:16","Luke 11:33"],"Wise and Foolish Builders":["Matthew 7:24-27","Luke 6:47-49"], ...}`
 
-
+<br/>
 
 #### `GetPropheciesFulfilledInJesus`
 
@@ -956,7 +956,7 @@ Content-Type: application/json
 *Example response:*
 `{"Gen 3:15":"He will bruise Satan's head. Fulfilled in: Heb 2:14; 1 John 3:8","Gen 5:24":"The bodily ascension to heaven illustrated. Fulfilled in: Mark 16:19", ... }`
 
-
+<br/>
 
 #### `GetSemanticRelations`
 
@@ -977,7 +977,7 @@ Content-Type: application/json
 *Example response:*
 `{"word":"Faith","related":["Belief","Trust","Conviction","Confidence","Loyalty"]}`
 
-
+<br/>
 
 #### `GetStories`
 
@@ -996,7 +996,7 @@ Content-Type: application/json
 *Example response:*
 `[{"id":"1","verse_id":"1001001","story":"God Creates the World","verses_1":"Genesis 1:1","verses_2":"","verses_3":"","verses_4":""}, ... }]`
 
-
+<br/>
 
 #### `GetStrongs`
 
@@ -1016,7 +1016,7 @@ Content-Type: application/json
 *Example response:*
 `[{"id":"21","strongs_id":"H21","language":"H","word":"\u05d0\u05b2\u05d1\u05b4\u05d9","glossary":"Abiy (ab-ee') n\/p.\n1. fatherly\n2. Abi, Hezekiah's mother\n[from H1]\nKJV: Abi. \nRoot(s): H1 ","occurences":"1","first_occurence":"12018002","root":"\u05d0\u05d1", ... }]`
 
-
+<br/>
 
 #### `GetWordsOfJesus`
 
@@ -1057,7 +1057,7 @@ Content-Type: application/json
 *Example response:*
 `[{"id":"40001001","b":"40","c":"1","v":"1","t":"The book of the generation of Jesus Christ, the son of David, the son of Abraham."},{"id":"40001016","b":"40","c":"1","v":"16","t":"And Jacob begat Joseph the husband of Mary, of whom was born Jesus, ... }]`
 
-
+<br/>
 
 #### `GetSearchAdvanced`
 
@@ -1108,7 +1108,7 @@ Content-Type: application/json
 *Example response:*
 `[{"id":"07017001","b":"7","c":"17","v":"1","t":"And there was a man of mount Ephraim, whose name was Micah."}, ... }]`
 
-
+<br/>
 
 #### `GetRandomVerse`
 
@@ -1155,7 +1155,7 @@ Content-Type: application/json
 *Example response:*
 `[[{"id":"01001001","b":"1","c":"1","v":"1","t":"In the beginning God created the heavens and the earth.","versionId":"t_asv","versionAbbreviation":"ASV","versionName":"American Standard \r\n - 1901"}], ... }]]`
 
-
+<br/>
 
 #### `GetVerse`
 
@@ -1267,7 +1267,7 @@ Content-Type: application/json
 *Example response:*
 `[{"id":"1","weight":"1","name":"1 Enoch","info_text":"","info_url":"https:\/\/en.wikipedia.org\/wiki\/Book_of_Enoch","path":"1-enoch\/1-enoch"}...}]`
 
-
+<br/>
 
 #### `GetChapterExtraBiblical`
 
@@ -1292,7 +1292,7 @@ Content-Type: application/json
 *Example response:*
 `[{"b":"1","c":"3","cs":"3","v":"1","vs":"1","t":"Observe and see how (in the winter) all the trees \u2308\u2308seem as though they had withered and shed all their leaves, except fourteen trees, which do not lose their foliage but retain the old foliage from two to three years till the new comes.\n\n"}]`
 
-
+<br/>
 
 #### `GetBookNameExtraBiblicalByBookId`
 
@@ -1311,7 +1311,7 @@ Content-Type: application/json
 *Example response:*  
 `[{"n":"1 Enoch"}]`
 
-
+<br/>
 
 #### `GetChapterCountExtraBiblical`
 
@@ -1355,7 +1355,7 @@ Content-Type: application/json
 *Example response:*
 `[{"citation":"1 Corinthians 13:4-8","verseIds":["46013004","46013005","46013006","46013007","46013008"]},{"citation":"1 Corinthians 16:14", ...}]`
 
-
+<br/>
 
 #### `GetTopics`
 
