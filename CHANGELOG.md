@@ -11,7 +11,11 @@ We follow [Semantic Versioning](https://semver.org/), with a clarification:
 This allows the docs to evolve while clearly indicating which version of the API they describe.
 
 ## Unreleased
-- Endpoint groupings
+- n/a
+
+## [1.38.5] - 2025-08-06
+### Added
+- Endpoint groupings and styles
 
 ## [1.38.4] - 2025-08-01
 ### Changed
