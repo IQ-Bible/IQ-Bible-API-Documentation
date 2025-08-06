@@ -16,8 +16,10 @@ This allows the docs to evolve while clearly indicating which version of the API
 ## [1.38.5] - 2025-08-06
 ### Added
 - Endpoint groupings and styles
+### Changed
 - Moved repo to IQ Bible org (q.v.)
 - Updated authorship section
+- Moved categories.md to _archive (ignored)
 
 ## [1.38.4] - 2025-08-01
 ### Changed
