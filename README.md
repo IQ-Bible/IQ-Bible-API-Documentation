@@ -239,7 +239,11 @@ Content-Type: application/json
 *Example response:*
 `[{"id":"40001001","b":"40","c":"1","v":"1","t":"The book of the generation of Jesus Christ, the son of David, the son of Abraham."},{"id":"40001002","b":"40","c":"1","v":"2","t":"Abraham begat Isaac; and Isaac begat Jacob; and Jacob begat Judas and his brethren;"}, ... }]`
 
+<br/>
+
 ---
+
+<br/>
 
 ### Counting
 
@@ -367,7 +371,11 @@ Content-Type: application/json
 *Example response:*
 `{"verseId":"01001001","versionId":"kjv","wordCount":10}`
 
+<br/>
+
 ---
+
+<br/>
 
 ### Greek and Hebrew Study
 
