@@ -250,7 +250,7 @@ Content-Type: application/json
 *Example response:*
 `{"chapterCount":22}`
 
-
+<br/>
 
 #### `GetSearchCount`
 
@@ -270,7 +270,7 @@ Content-Type: application/json
 *Example response:*
 `{"searchCount":2}`
 
-
+<br/>
 
 #### `GetVerseCount`
 
@@ -297,7 +297,7 @@ Returns the number of verses for a specified book and chapter. You can now optio
 *Example response using BBE:*
 `{"verseCount":33}`
 
-
+<br/>
 
 #### `GetWordCountOfBook`
 
@@ -317,7 +317,7 @@ Content-Type: application/json
 *Example response:*
 `{"bookId":"01","versionId":"kjv","wordCount":38265}`
 
-
+<br/>
 
 #### `GetWordCountOfChapter`
 
