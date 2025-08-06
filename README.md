@@ -110,8 +110,9 @@ Your suggestions help us improve the experience for the entire community.
 
 The IQ Bible API and its documentation are maintained by [Jody Pike Méndez](https://jodypm.com), founder of [IQBible.com](https://iqbible.com) and senior AI/Web consultant and software engineer at [Websitie.com](https://websitie.com).
 
-Contact: 
-Jody Pike Méndez 
+Contact:
+
+- IQ Bible | Jody Pike Méndez 
 - Email: info@iqbible.com  | jody@websitie.com
 - Phone: +1 (754) 800-4695  
 
