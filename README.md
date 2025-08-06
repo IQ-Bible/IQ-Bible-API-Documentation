@@ -181,7 +181,11 @@ Content-Type: application/json
 
 ---
 
+<br/>
+
 ### Chapters
+
+<br/>
 
 #### `GetChapter`
 
