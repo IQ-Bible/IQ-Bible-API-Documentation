@@ -130,6 +130,8 @@ This section explains the key parameters used throughout the IQ Bible API. Under
 
 Parameters like `verseId`, `bookId`, and `versionId` provide standardized ways to reference specific books, chapters, verses, and Bible versions, enabling precise and consistent data retrieval.
 
+<br/>
+
 ### `verseId`
 
 The `verseId` is an 8-digit numeric code used to uniquely identify a specific Bible verse.
@@ -142,6 +144,8 @@ The `verseId` is an 8-digit numeric code used to uniquely identify a specific Bi
 **Example:**  
 `01002004` → Genesis 2:4
 
+<br/>
+
 ### `bookId`
 
 A number from `1` to `66` representing the primary 66 books commonly used in Protestant Bibles.
@@ -149,6 +153,8 @@ A number from `1` to `66` representing the primary 66 books commonly used in Pro
 **Example:**  
 `1` → Genesis  
 `43` → John
+
+<br/>
 
 ### `chapterId`
 
@@ -160,6 +166,8 @@ The chapter number within a book, starting at `1`.
 > **Note:** Some endpoints support extrabiblical texts (e.g., 1 Enoch, 2 Esdras, Testaments of the Twelve Patriarchs), which are assigned IDs beyond the canonical 66 books.  
 > Use the [`GetBooksExtraBiblical`](#getbooksextrabiblical) endpoint for a full list.
 
+<br/>
+
 ### `versionId`
 
 The Bible version or translation to use.
@@ -167,6 +175,8 @@ The Bible version or translation to use.
 **Examples:**  
 - `kjv` → King James Version  
 - `rv1909` → Reina-Valera - 1909
+
+<br/>
 
 ### `bookAndChapterId`
 
