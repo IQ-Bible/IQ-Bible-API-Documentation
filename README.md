@@ -247,6 +247,8 @@ Content-Type: application/json
 
 ### Counting
 
+<br/>
+
 #### `GetChapterCount`
 
 **Description:**
