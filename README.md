@@ -1,10 +1,16 @@
 # IQ Bible API Official Documentation
 
+<br/>
+
 ## Welcome
 
 Welcome to the **IQ Bible API**, which has been built to enable developers to access a well-maintained and powerful Bible API with useful out-of-the-box tools and resources — like Strong's Concordance and the original texts in Hebrew or Greek — as well as advanced tools, such as professional audio narration for complete chapters.
 
+<br/>
+
 ---
+
+<br/>
 
 ## Overview
 
