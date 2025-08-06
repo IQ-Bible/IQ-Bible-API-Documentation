@@ -26,7 +26,13 @@ Features include:
 
 You can connect to the API via [RapidAPI](https://rapidapi.com/vibrantmiami/api/iq-bible/), obtain your API key, and start building quickly.
 
+
+<br/>
+
 ---
+
+
+<br/>
 
 ## Getting Started
 
@@ -52,7 +58,12 @@ curl --request GET \
   --header 'X-RapidAPI-Key: YOUR_API_KEY_HERE' \
   --header 'X-RapidAPI-Host: iq-bible.p.rapidapi.com'
 ```
+
+<br/>
+
 ---
+
+<br/>
 
 ## FAQ
 
@@ -72,7 +83,11 @@ Yes! Our endpoints support Strong's Concordance data, making it easy to perform 
 **Is audio included for all books?**  
 Audio is available for entire chapters in supported translations. Use the `/GetChapterAudio` endpoint to see what's available.
 
+<br/>
+
 ---
+
+<br/>
 
 ## Feature Requests
 
@@ -85,7 +100,11 @@ If you'd like to request a new feature (e.g., a new Bible version, language, or 
 
 Your suggestions help us improve the experience for the entire community.
 
+<br/>
+
 ---
+
+<br/>
 
 ## Authorship
 
@@ -97,7 +116,11 @@ Contact:
 
 For questions, contributions, or custom API integrations, contact: [info@iqbible.com](mailto:info@iqbible.com) or [jody@websitie.com](mailto:jody@websitie.com)
 
+<br/>
+
 ---
+
+<br/>
 
 ## Common Parameters
 
@@ -154,7 +177,11 @@ A 5-digit numeric code combining the book and chapter.
 **Example:**  
 `40001` → Matthew 1
 
+<br/>
+
 ---
+
+<br/>
 
 ## Endpoints
 
