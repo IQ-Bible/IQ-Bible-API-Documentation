@@ -353,7 +353,7 @@ Content-Type: application/json
 *Example response:*
 `{"bookAndChapterId":"01001","versionId":"kjv","wordCount":797}`
 
-
+<br/>
 
 #### `GetWordCountOfVerse`
 
