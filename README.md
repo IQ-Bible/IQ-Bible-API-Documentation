@@ -189,7 +189,7 @@ All current IQ Bible API endpoints use the GET method. This section provides cle
 
 <br/>
 
-### Audio
+### Audio Endpoints
 
 <br/>
 
@@ -222,7 +222,7 @@ Content-Type: application/json
 
 <br/>
 
-### Chapters
+### Chapters Endpoints
 
 <br/>
 
@@ -278,7 +278,7 @@ Content-Type: application/json
 
 <br/>
 
-### Counting
+### Counting Endpoints
 
 <br/>
 
@@ -412,7 +412,7 @@ Content-Type: application/json
 
 <br/>
 
-### Greek and Hebrew Study
+### Greek and Hebrew Study Endpoints
 
 <br/>
 
@@ -479,7 +479,7 @@ Content-Type: application/json
 
 <br/>
 
-### Books
+### Books Endpoints
 
 <br/>
 
@@ -563,7 +563,7 @@ Content-Type: application/json
 
 <br/>
 
-### Info
+### Info Endpoints
 
 <br/>
 
@@ -609,7 +609,7 @@ Content-Type: application/json
 
 <br/>
 
-### Parsing and Extracting
+### Parsing and Extracting Endpoints
 
 <br/>
 
@@ -766,7 +766,7 @@ Content-Type: application/json
 
 <br/>
 
-### Reading Plan Generation
+### Reading Plan Generation Endpoints
 
 <br/>
 
@@ -895,7 +895,7 @@ Content-Type: application/json
 
 <br/>
 
-### Study Tools
+### Study Tools Endpoints
 
 <br/>
 
@@ -1126,7 +1126,7 @@ Content-Type: application/json
 
 <br/>
 
-### Search
+### Search Endpoints
 
 <br/>
 
@@ -1184,7 +1184,7 @@ Content-Type: application/json
 
 <br/>
 
-### Random
+### Random Endpoints
 
 <br/>
 
@@ -1237,7 +1237,7 @@ Content-Type: application/json
 
 <br/>
 
-### Verses
+### Verses Endpoints
 
 <br/>
 
@@ -1284,7 +1284,7 @@ Content-Type: application/json
 
 <br/>
 
-### Versions
+### Versions Endpoint
 
 <br/>
 
@@ -1319,7 +1319,7 @@ Content-Type: application/json
 
 <br/>
 
-### Extra Biblical
+### Extra Biblical Endpoints
 
 <br/>
 
@@ -1451,7 +1451,7 @@ Content-Type: application/json
 
 <br/>
 
-### Topics
+### Topics Endpoints
 
 <br/>
 
