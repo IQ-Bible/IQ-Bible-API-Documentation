@@ -381,6 +381,8 @@ Content-Type: application/json
 
 ### Greek and Hebrew Study
 
+<br/>
+
 #### `GetGreekCharactersAndUnicode`
 
 **Description:**
@@ -438,9 +440,15 @@ Content-Type: application/json
 *Example response:*  
 `[{"id":"1","verseID":"1001001","book":"1","chapter":"1","verse":"1","word":"\u05d1\u05bc\u05b0\u05e8\u05b5\u05d0\u05e9\u05c1\u05b4\u0596\u05d9\u05ea","pronun":"...","strongs":"7225","morph":"","orig_order":"1","connected":"0","parashah":"0","notes":"","glossary":"The first, in place, time, order or rank (Strong's H7225)"}]`
 
+<br/>
+
 ---
 
+<br/>
+
 ### Books
+
+<br/>
 
 #### `GetBibleBookAbbreviations`
 
@@ -516,9 +524,15 @@ Content-Type: application/json
 *Example response:*
 `[{"b":"1","n":"Genesis","t":"OT","g":"1"},{"b":"2","n":"Exodus","t":"OT","g":"1"}, ... }]`
 
+<br/>
+
 ---
 
+<br/>
+
 ### Info
+
+<br/>
 
 #### `GetInfo`
 
@@ -556,9 +570,15 @@ Content-Type: application/json
 *Example response:*
 `{"GetAudioNarration":{"params":["bookId","chapterId","versionId"]},"GetAudioMusic":{"params":["genre"]}, ...}`
 
+<br/>
+
 ---
 
+<br/>
+
 ### Parsing and Extracting
+
+<br/>
 
 #### `GetBookAndChapterNameByBookAndChapterId`
 
@@ -707,9 +727,15 @@ Content-Type: application/json
 *Example response:*
 `{"verseId":"01001001","versionId":"kjv","wordCount":10,"0":"In","1":"the","2":"beginning","3":"God","4":"created","5":"the","6":"heaven","7":"and","8":"the","9":"earth."}`
 
+<br/>
+
 ---
 
+<br/>
+
 ### Reading Plan Generation
+
+<br/>
 
 #### `GetBibleReadingPlan`
 
@@ -830,9 +856,15 @@ Content-Type: application/json
 *Example response:*
 `{"topicInfo":{"topic":"love","daysRequested":"30","daysFilled":26},"readingPlan":[{"day":1,"date":"2025-01-01","verseIds":["46013004","46013005","46013006","46013007","46013008","46016014"]},{"day":2,"date":"2025-01-02","verseIds":["43003016","62004008","60004008","51003014","46013013","43015013"]} ...`
 
+<br/>
+
 ---
 
+<br/>
+
 ### Study Tools
+
+<br/>
 
 #### `GetBookInfo`
 
@@ -1055,9 +1087,15 @@ Content-Type: application/json
 *Example response:*
 `{"[0]":"40003015","[1]":"40004004","[2]":"40004007","[3]":"40004010","[4]":"40004017","[5]":"40004019","[6]":"40005003","[7]":"40005004", ... }`
 
+<br/>
+
 ---
 
+<br/>
+
 ### Search
+
+<br/>
 
 #### `GetSearch`
 
@@ -1107,9 +1145,15 @@ Content-Type: application/json
 *Example response:*
 `[{"id":"40001001","b":"40","c":"1","v":"1","t":"The book of the generation of Jesus Christ, the son of David, the son of Abraham."},{"id":"40001017","b":"40","c":"1","v":"17","t":"So all the generations from Abraham to David are fourteen generations; and from David until the carrying away into Babylon are fourteen generations; and from the carrying away into Babylon unto Christ are fourteen generations."},{"id":"40001020","b":"40","c":"1","v":"20","t":"But while he thought on these things, behold, the angel of the LORD appeared unto him in a dream, saying, Joseph, thou son of David, fear not to take unto thee Mary thy wife: for that which is conceived in her is of the Holy Ghost."}]`
 
+<br/>
+
 ---
 
+<br/>
+
 ### Random
+
+<br/>
 
 #### `GetRandomChapter`
 
@@ -1154,9 +1198,15 @@ Content-Type: application/json
 *Example response:*
 `[{"id":"20001015","b":"20","c":"1","v":"15","t":"My son, walk not thou in the way with them; refrain thy foot from their path:"}]`
 
+<br/>
+
 ---
 
+<br/>
+
 ### Verses
+
+<br/>
 
 #### `GetParallelVerses`
 
@@ -1195,9 +1245,15 @@ Content-Type: application/json
 *Example response:*
 `[{"id":"01001001","b":"1","c":"1","v":"1","t":"In the beginning God created the heaven and the earth."}]`
 
+<br/>
+
 ---
 
+<br/>
+
 ### Versions
+
+<br/>
 
 #### `GetVersions`
 
@@ -1224,9 +1280,15 @@ Content-Type: application/json
 *Example response:*
 `[{"table":"t_asv","version_id":"1","abbreviation":"ASV","version":"American Standard \r\n - 1901","language":"english"},{"table":"t_bbe", ... }]`
 
+<br/>
+
 ---
 
+<br/>
+
 ### Extra Biblical
+
+<br/>
 
 #### `GetBooksExtraBiblical`
 
@@ -1350,9 +1412,15 @@ Content-Type: application/json
 *Example response:*  
 `{"chapterCount":107}`
 
+<br/>
+
 ---
 
+<br/>
+
 ### Topics
+
+<br/>
 
 #### `GetTopic`
 
