@@ -13,6 +13,10 @@ This allows the docs to evolve while clearly indicating which version of the API
 ## Unreleased
 - n/a
 
+## [1.38.6] - 2025-08-14
+### Fixed
+- Incorrect curl request example under Getting Started
+
 ## [1.38.5] - 2025-08-06
 ### Added
 - Endpoint groupings and styles

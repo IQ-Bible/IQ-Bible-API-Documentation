@@ -53,10 +53,10 @@ Once subscribed, you'll receive an **X-RapidAPI-Key** that you'll use to authent
 Use any HTTP client (like Postman, Insomnia, or your code) to make a GET request. Here's an example using `curl`:
 
 ```bash
-curl --request GET \
-  --url 'https://iq-bible.p.rapidapi.com/GetVerseById?verseId=John.3.16' \
-  --header 'X-RapidAPI-Key: YOUR_API_KEY_HERE' \
-  --header 'X-RapidAPI-Host: iq-bible.p.rapidapi.com'
+curl --request GET 
+	--url 'https://iq-bible.p.rapidapi.com/GetVerse?verseId=40001001&versionId=kjv' 
+	--header 'x-rapidapi-host: iq-bible.p.rapidapi.com' 
+	--header 'x-rapidapi-key: YOUR_API_KEY_HERE'
 ```
 
 <br/>
