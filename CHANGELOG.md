@@ -13,6 +13,14 @@ This allows the docs to evolve while clearly indicating which version of the API
 ## Unreleased
 - n/a
 
+## [1.38.7] - 2026-08-28
+### Changed
+- Retitled to "IQ Bible API v1 — Official Documentation"
+### Added
+- Notice at the top of the README: this documents v1 (RapidAPI); v1 is stable
+  but no longer receiving new features; new projects should use IQ Bible API v2
+  at developer.iqbible.com
+
 ## [1.38.6] - 2025-08-14
 ### Fixed
 - Incorrect curl request example under Getting Started
