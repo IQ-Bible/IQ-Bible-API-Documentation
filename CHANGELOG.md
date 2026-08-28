@@ -19,7 +19,7 @@ This allows the docs to evolve while clearly indicating which version of the API
 ### Added
 - Notice at the top of the README: this documents v1 (RapidAPI); v1 is stable
   but no longer receiving new features; new projects should use IQ Bible API v2
-  at developer.iqbible.com
+  at api.iqbible.com
 
 ## [1.38.6] - 2025-08-14
 ### Fixed
