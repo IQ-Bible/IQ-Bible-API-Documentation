@@ -5,9 +5,9 @@
 >
 > v1 is stable and still supported for existing integrations, but it is **no
 > longer receiving new features or endpoints**. If you're starting a new project,
-> use **[IQ Bible API v2](https://developer.iqbible.com)** — a ground-up rewrite
-> with 90+ endpoints, a self-service developer portal (API explorer, usage
-> analytics, billing), and direct pricing that beats the marketplace rate.
+> use **[IQ Bible API v2](https://api.iqbible.com)** — a ground-up rewrite with
+> 90+ endpoints, a self-service developer portal (API explorer, usage analytics,
+> billing), and direct pricing that beats the marketplace rate.
 
 <br/>
 
